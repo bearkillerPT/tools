@@ -12,3 +12,6 @@ let css = `
 `
 cover.setAttribute("style", css);
 document.body.appendChild(cover);
+
+
+//Special thanks: https://www.reddit.com/r/chrome/comments/e3txhi/comment/fem1cto
