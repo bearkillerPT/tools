@@ -190,3 +190,6 @@ bindsym $mod+Escape exec i3lock -i /home/bearkiller/Downloads/wallpaper.png
 
 #Program workspace defaults
 for_window [class="firefox"] move to workspace $ws2
+
+#Picom for the alacritty opacity
+exec picom
