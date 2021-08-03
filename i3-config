@@ -186,11 +186,11 @@ bar {
 exec_always feh --bg-fill /home/bearkiller/Downloads/wallpaper.png
 
 #Screen Lock Bind
-bindsym $mod+Escape exec ~/lock_screen
+bindsym $mod+Escape exec ~/lock_screen.sh
  #i3lock -i /home/bearkiller/Downloads/wallpaper.png
-exec xset s 120 120
-exec xss-lock ~/lock_screen.sh
-
+exec xset s 120
+exec xset dpms 120
+exec xss-lock -n dim-screen.sh -- i3lock -i /home/bearkiller/Downloads/wallpaper.png -n
 #Program workspace defaults
 for_window [class="firefox"] move to workspace $ws2
 for_window [class="Code"] move to workspace $ws3
