@@ -204,6 +204,8 @@ exec --no-startup-id nm-apple
 
 #pasystray sound control and binds
 exec volumeicon
+#bindsym 34+224 xbacklight -inc 10
+#bindsym 34+224 xbacklight -dec 10
 bindsym 34+114 amixer set Master 10%+
 bindsym 34+113 amixer set Master 10%-
 bindsym Print exec flameshot gui
